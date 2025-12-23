@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>es6 features</title>
+</head>
+
+<body>
+    <!-- <label>accessible</label>
+    <input id="box" type="checkbox"> -->
+    <!--<form>
+    <input type="text">
+    <button id="btn" type="submit">click</button>
+    </form>-->
+    <label>it</label>
+    <input id="box" type="checkbox"> 
+    <script>
+        //let a = 10;
+        //console.log(`this is my value ${a}`);
+        //alert(`this is alert msg`)
+        document.getElementById("box").addEventListener("click",function(event){
+         event.preventDefault();
+          alert(`this event is prevented`)
+        })
+
+        
+    </script>
+</body>
+
+</html>
