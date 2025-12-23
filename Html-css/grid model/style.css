@@ -1,0 +1,14 @@
+*{
+    background-color: pink;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+   /* grid-template-rows: 2fr 2fr 2fr;*/
+    gap: 20px;
+}
+p{
+    padding: 1rem;
+    color: white;
+    background-color: steelblue;
+}
