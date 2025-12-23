@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus{
+            background-color: orange;
+            border: 5px solid;
+        }
+        input:checked{
+            outline: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <label for="name">Enter Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Kubea Nagaraj">
+        <br><br>
+        <label for="address">Residential address:</label>
+        <input type="text" id="address" name="address">
+        <br><br>
+        <label for="cell">Enter Your Phone No:</label>
+        <input type="tel" id="Phone" name="Phone" placeholder="+91 9751740548">
+        <br><br>
+        <label for="lang">Select Programming Lang:</label><br><br>
+        <input type="checkbox" id="JS" name="lang" value="JS">
+        <label for="JS">JS</label>
+        <input type="checkbox" id="Node.JS" name="lang" value="Node.JS">
+        <label for="Node.JS">Node.JS</label>
+    </form>
+</body>
+
+</html>

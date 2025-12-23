@@ -1,0 +1,38 @@
+a:link{
+    color: yellowgreen;
+    border: 5px solid ;
+    border-radius: 4px 4px;
+    text-decoration: none;
+    padding: 2px 50px;
+    margin: 3px;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color:brown ;
+    border: 5px solid ;
+    border-radius: 5px 5px;
+    text-decoration: none;
+    padding: 2px 50px; 
+    margin: 3px; 
+    font-size: 1.5rem;
+}
+a:active{
+    color:brown ;
+    border: 5px solid ;
+    border-radius: 5px 5px;
+    text-decoration: none;
+    padding: 2px 50px; 
+    margin: 3px; 
+    font-size: 1.5rem;
+    background-color: coral;
+}
+img{
+    width: 500px;
+    height: 500px;
+    display: none;
+}
+div:hover img{
+    display:flex;
+}
